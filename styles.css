@@ -1,0 +1,53 @@
+canvas{
+    background-color:grey;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid #555;
+ }
+body{
+    background-color:burlywood;
+}
+h1{
+    font-size: 120%;
+    color:brown;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#controlsWrapper{
+    width: 350px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#controlButton{
+    float: left;
+    background-color: lime;
+    border-width: 3px;
+    border-color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    
+}
+#sliderControl{
+     display:inline-block;
+}
+#timeLabel{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#clearButton{
+    background-color: lightgrey;
+    border-width: 3px;
+    border-color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
